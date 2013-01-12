@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EF0AF416A1327700A5620C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0AF316A1327700A5620C /* UIKit.framework */; };
+		18EF0AF616A1327700A5620C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0AF516A1327700A5620C /* Foundation.framework */; };
+		18EF0AF816A1327700A5620C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0AF716A1327700A5620C /* CoreGraphics.framework */; };
+		18EF0AFE16A1327700A5620C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EF0AFC16A1327700A5620C /* InfoPlist.strings */; };
+		18EF0B0016A1327700A5620C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0AFF16A1327700A5620C /* main.m */; };
+		18EF0B0416A1327700A5620C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0B0316A1327700A5620C /* AppDelegate.m */; };
+		18EF0B0716A1327700A5620C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0B0616A1327700A5620C /* ViewController.m */; };
+		18EF0B0A16A1327700A5620C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EF0B0816A1327700A5620C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EF0AEF16A1327700A5620C /* MicrophoneViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrophoneViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EF0AF316A1327700A5620C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18EF0AF516A1327700A5620C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18EF0AF716A1327700A5620C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18EF0AFB16A1327700A5620C /* MicrophoneViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicrophoneViewDemo-Info.plist"; sourceTree = "<group>"; };
+		18EF0AFD16A1327700A5620C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18EF0AFF16A1327700A5620C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EF0B0116A1327700A5620C /* MicrophoneViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicrophoneViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18EF0B0216A1327700A5620C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EF0B0316A1327700A5620C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EF0B0516A1327700A5620C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18EF0B0616A1327700A5620C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18EF0B0916A1327700A5620C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EF0AEC16A1327700A5620C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF0AF416A1327700A5620C /* UIKit.framework in Frameworks */,
+				18EF0AF616A1327700A5620C /* Foundation.framework in Frameworks */,
+				18EF0AF816A1327700A5620C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EF0AE416A1327700A5620C = {
+			isa = PBXGroup;
+			children = (
+				18EF0AF916A1327700A5620C /* MicrophoneViewDemo */,
+				18EF0AF216A1327700A5620C /* Frameworks */,
+				18EF0AF016A1327700A5620C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EF0AF016A1327700A5620C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0AEF16A1327700A5620C /* MicrophoneViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EF0AF216A1327700A5620C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0AF316A1327700A5620C /* UIKit.framework */,
+				18EF0AF516A1327700A5620C /* Foundation.framework */,
+				18EF0AF716A1327700A5620C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18EF0AF916A1327700A5620C /* MicrophoneViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0B0216A1327700A5620C /* AppDelegate.h */,
+				18EF0B0316A1327700A5620C /* AppDelegate.m */,
+				18EF0B0516A1327700A5620C /* ViewController.h */,
+				18EF0B0616A1327700A5620C /* ViewController.m */,
+				18EF0B0816A1327700A5620C /* ViewController.xib */,
+				18EF0AFA16A1327700A5620C /* Supporting Files */,
+			);
+			path = MicrophoneViewDemo;
+			sourceTree = "<group>";
+		};
+		18EF0AFA16A1327700A5620C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0AFB16A1327700A5620C /* MicrophoneViewDemo-Info.plist */,
+				18EF0AFC16A1327700A5620C /* InfoPlist.strings */,
+				18EF0AFF16A1327700A5620C /* main.m */,
+				18EF0B0116A1327700A5620C /* MicrophoneViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EF0AEE16A1327700A5620C /* MicrophoneViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EF0B0D16A1327700A5620C /* Build configuration list for PBXNativeTarget "MicrophoneViewDemo" */;
+			buildPhases = (
+				18EF0AEB16A1327700A5620C /* Sources */,
+				18EF0AEC16A1327700A5620C /* Frameworks */,
+				18EF0AED16A1327700A5620C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicrophoneViewDemo;
+			productName = MicrophoneViewDemo;
+			productReference = 18EF0AEF16A1327700A5620C /* MicrophoneViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EF0AE616A1327700A5620C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = jing;
+			};
+			buildConfigurationList = 18EF0AE916A1327700A5620C /* Build configuration list for PBXProject "MicrophoneViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18EF0AE416A1327700A5620C;
+			productRefGroup = 18EF0AF016A1327700A5620C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EF0AEE16A1327700A5620C /* MicrophoneViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EF0AED16A1327700A5620C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF0AFE16A1327700A5620C /* InfoPlist.strings in Resources */,
+				18EF0B0A16A1327700A5620C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EF0AEB16A1327700A5620C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF0B0016A1327700A5620C /* main.m in Sources */,
+				18EF0B0416A1327700A5620C /* AppDelegate.m in Sources */,
+				18EF0B0716A1327700A5620C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EF0AFC16A1327700A5620C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EF0AFD16A1327700A5620C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18EF0B0816A1327700A5620C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EF0B0916A1327700A5620C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EF0B0B16A1327700A5620C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18EF0B0C16A1327700A5620C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EF0B0E16A1327700A5620C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicrophoneViewDemo/MicrophoneViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MicrophoneViewDemo/MicrophoneViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18EF0B0F16A1327700A5620C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicrophoneViewDemo/MicrophoneViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MicrophoneViewDemo/MicrophoneViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EF0AE916A1327700A5620C /* Build configuration list for PBXProject "MicrophoneViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EF0B0B16A1327700A5620C /* Debug */,
+				18EF0B0C16A1327700A5620C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EF0B0D16A1327700A5620C /* Build configuration list for PBXNativeTarget "MicrophoneViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EF0B0E16A1327700A5620C /* Debug */,
+				18EF0B0F16A1327700A5620C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EF0AE616A1327700A5620C /* Project object */;
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1877870916B6812F00A17057 /* MovingArrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877870816B6812F00A17057 /* MovingArrayView.m */; };
+		18E12BBD16BA758600C82B12 /* MovingCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E12BBC16BA758600C82B12 /* MovingCircleButton.m */; };
 		18EF0AF416A1327700A5620C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0AF316A1327700A5620C /* UIKit.framework */; };
 		18EF0AF616A1327700A5620C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0AF516A1327700A5620C /* Foundation.framework */; };
 		18EF0AF816A1327700A5620C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0AF716A1327700A5620C /* CoreGraphics.framework */; };
@@ -15,9 +17,16 @@
 		18EF0B0416A1327700A5620C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0B0316A1327700A5620C /* AppDelegate.m */; };
 		18EF0B0716A1327700A5620C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0B0616A1327700A5620C /* ViewController.m */; };
 		18EF0B0A16A1327700A5620C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EF0B0816A1327700A5620C /* ViewController.xib */; };
+		18EF0B1316A132AF00A5620C /* MicrophoneButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0B1216A132AF00A5620C /* MicrophoneButton.m */; };
+		18EF0B1916A1334700A5620C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0B1816A1334700A5620C /* AVFoundation.framework */; };
+		18EF0B2516A1793A00A5620C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0B2416A1793A00A5620C /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1877870716B6812F00A17057 /* MovingArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingArrayView.h; sourceTree = "<group>"; };
+		1877870816B6812F00A17057 /* MovingArrayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingArrayView.m; sourceTree = "<group>"; };
+		18E12BBB16BA758600C82B12 /* MovingCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingCircleButton.h; sourceTree = "<group>"; };
+		18E12BBC16BA758600C82B12 /* MovingCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingCircleButton.m; sourceTree = "<group>"; };
 		18EF0AEF16A1327700A5620C /* MicrophoneViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrophoneViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF0AF316A1327700A5620C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18EF0AF516A1327700A5620C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +40,10 @@
 		18EF0B0516A1327700A5620C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18EF0B0616A1327700A5620C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18EF0B0916A1327700A5620C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18EF0B1116A132AF00A5620C /* MicrophoneButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrophoneButton.h; sourceTree = "<group>"; };
+		18EF0B1216A132AF00A5620C /* MicrophoneButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrophoneButton.m; sourceTree = "<group>"; };
+		18EF0B1816A1334700A5620C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18EF0B2416A1793A00A5620C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF0B2516A1793A00A5620C /* GLKit.framework in Frameworks */,
+				18EF0B1916A1334700A5620C /* AVFoundation.framework in Frameworks */,
 				18EF0AF416A1327700A5620C /* UIKit.framework in Frameworks */,
 				18EF0AF616A1327700A5620C /* Foundation.framework in Frameworks */,
 				18EF0AF816A1327700A5620C /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +65,7 @@
 		18EF0AE416A1327700A5620C = {
 			isa = PBXGroup;
 			children = (
+				18EF0B1016A132A300A5620C /* Class */,
 				18EF0AF916A1327700A5620C /* MicrophoneViewDemo */,
 				18EF0AF216A1327700A5620C /* Frameworks */,
 				18EF0AF016A1327700A5620C /* Products */,
@@ -67,6 +83,8 @@
 		18EF0AF216A1327700A5620C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18EF0B2416A1793A00A5620C /* GLKit.framework */,
+				18EF0B1816A1334700A5620C /* AVFoundation.framework */,
 				18EF0AF316A1327700A5620C /* UIKit.framework */,
 				18EF0AF516A1327700A5620C /* Foundation.framework */,
 				18EF0AF716A1327700A5620C /* CoreGraphics.framework */,
@@ -96,6 +114,19 @@
 				18EF0B0116A1327700A5620C /* MicrophoneViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18EF0B1016A132A300A5620C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0B1116A132AF00A5620C /* MicrophoneButton.h */,
+				18EF0B1216A132AF00A5620C /* MicrophoneButton.m */,
+				1877870716B6812F00A17057 /* MovingArrayView.h */,
+				1877870816B6812F00A17057 /* MovingArrayView.m */,
+				18E12BBB16BA758600C82B12 /* MovingCircleButton.h */,
+				18E12BBC16BA758600C82B12 /* MovingCircleButton.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +195,9 @@
 				18EF0B0016A1327700A5620C /* main.m in Sources */,
 				18EF0B0416A1327700A5620C /* AppDelegate.m in Sources */,
 				18EF0B0716A1327700A5620C /* ViewController.m in Sources */,
+				18EF0B1316A132AF00A5620C /* MicrophoneButton.m in Sources */,
+				1877870916B6812F00A17057 /* MovingArrayView.m in Sources */,
+				18E12BBD16BA758600C82B12 /* MovingCircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +313,7 @@
 				18EF0B0F16A1327700A5620C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

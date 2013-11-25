@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "MovingCycleView.h"
+
 #define kTimeInterval 0.005
 
 
@@ -100,14 +102,29 @@
     
     mRecorder=[[AVAudioRecorder alloc] initWithURL:recordURL settings:setting error:nil];
     [mRecorder setMeteringEnabled:YES];
-    //[mRecorder prepareToRecord];
+    [mRecorder prepareToRecord];
     
 }
+
+- (void)showCycle
+{
+    MovingCycleView *cycleView = [[MovingCycleView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [cycleView setOffset:10.0];
+    [cycleView setStartColor:[UIColor redColor]];
+    
+    [self.view addSubview:cycleView];
+    
+}
+
+#pragma mark - VC lifecycle
+
 
 - (void)viewDidLoad
 {
     
     [super viewDidLoad];
+    
+    //[self showCycle];
     
     [self initAudioRecorder];
     //[self initMovingArayView];

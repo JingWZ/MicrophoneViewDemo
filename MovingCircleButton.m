@@ -52,7 +52,8 @@
         movingTimeInterval=0.02;
         movingCount=-0.1;
         
-        beginColor=[UIColor colorWithRed:100/255.0 green:220/255.0 blue:100/255.0 alpha:1];
+        beginColor=[UIColor colorWithRed:228/255.0 green:91/255.0 blue:0/255.0 alpha:1];
+       // beginColor = [UIColor co]
         endColor=borderColor;
         
         [self addObserver:self forKeyPath:@"currentTimeValue" options:NSKeyValueObservingOptionNew context:nil];
@@ -66,6 +67,9 @@
     viewHeight=self.bounds.size.height;
     
     CGContextRef context=UIGraphicsGetCurrentContext();
+    
+    
+    
     
     CGContextSaveGState(context);
     //border
@@ -156,7 +160,7 @@
     //gradient
     CGColorSpaceRef colorSpace=CGColorSpaceCreateDeviceRGB();
     //200/255.0 green:180/255.0 blue:100/255.0 alpha:1]
-    CGColorRef color1=CGColorCreate(colorSpace, (CGFloat[]){1, 1, 1, 0.9});
+    CGColorRef color1=CGColorCreate(colorSpace, (CGFloat[]){1, 1, 1, 0.5});
     CGColorRef color2=CGColorCreate(colorSpace, (CGFloat[]){200/255.0, 180/255.0, 100/255.0, 0.1});
     CFArrayRef colorArray2=CFArrayCreate(kCFAllocatorDefault, (const void*[]){color1,color2}, 2, nil);
     CGGradientRef gradient2=CGGradientCreateWithColors(colorSpace, colorArray2, NULL);

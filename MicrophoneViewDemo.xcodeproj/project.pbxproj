@@ -20,6 +20,9 @@
 		18EF0B1316A132AF00A5620C /* MicrophoneButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0B1216A132AF00A5620C /* MicrophoneButton.m */; };
 		18EF0B1916A1334700A5620C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0B1816A1334700A5620C /* AVFoundation.framework */; };
 		18EF0B2516A1793A00A5620C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF0B2416A1793A00A5620C /* GLKit.framework */; };
+		18F4785C176AB51F00245C06 /* MovingCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4785B176AB51F00245C06 /* MovingCycleView.m */; };
+		18F47860176AC16100245C06 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4785E176AC16100245C06 /* DemoViewController.m */; };
+		18F47861176AC16100245C06 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F4785F176AC16100245C06 /* DemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,11 @@
 		18EF0B1216A132AF00A5620C /* MicrophoneButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrophoneButton.m; sourceTree = "<group>"; };
 		18EF0B1816A1334700A5620C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18EF0B2416A1793A00A5620C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		18F4785A176AB51F00245C06 /* MovingCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingCycleView.h; sourceTree = "<group>"; };
+		18F4785B176AB51F00245C06 /* MovingCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingCycleView.m; sourceTree = "<group>"; };
+		18F4785D176AC16100245C06 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		18F4785E176AC16100245C06 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		18F4785F176AC16100245C06 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,9 @@
 			children = (
 				18EF0B0216A1327700A5620C /* AppDelegate.h */,
 				18EF0B0316A1327700A5620C /* AppDelegate.m */,
+				18F4785D176AC16100245C06 /* DemoViewController.h */,
+				18F4785E176AC16100245C06 /* DemoViewController.m */,
+				18F4785F176AC16100245C06 /* DemoViewController.xib */,
 				18EF0B0516A1327700A5620C /* ViewController.h */,
 				18EF0B0616A1327700A5620C /* ViewController.m */,
 				18EF0B0816A1327700A5620C /* ViewController.xib */,
@@ -125,6 +136,8 @@
 				1877870816B6812F00A17057 /* MovingArrayView.m */,
 				18E12BBB16BA758600C82B12 /* MovingCircleButton.h */,
 				18E12BBC16BA758600C82B12 /* MovingCircleButton.m */,
+				18F4785A176AB51F00245C06 /* MovingCycleView.h */,
+				18F4785B176AB51F00245C06 /* MovingCycleView.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -182,6 +195,7 @@
 			files = (
 				18EF0AFE16A1327700A5620C /* InfoPlist.strings in Resources */,
 				18EF0B0A16A1327700A5620C /* ViewController.xib in Resources */,
+				18F47861176AC16100245C06 /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +212,8 @@
 				18EF0B1316A132AF00A5620C /* MicrophoneButton.m in Sources */,
 				1877870916B6812F00A17057 /* MovingArrayView.m in Sources */,
 				18E12BBD16BA758600C82B12 /* MovingCircleButton.m in Sources */,
+				18F4785C176AB51F00245C06 /* MovingCycleView.m in Sources */,
+				18F47860176AC16100245C06 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MicrophoneViewDemo/MicrophoneViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "MicrophoneViewDemo/MicrophoneViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +306,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MicrophoneViewDemo/MicrophoneViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "MicrophoneViewDemo/MicrophoneViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

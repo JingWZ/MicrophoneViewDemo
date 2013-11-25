@@ -1,5 +1,5 @@
 #Microphone
 This app is for iOS, for drawing the microphone
 
-![image](http://www.liuhedao.com/t/6/1359711577x-1376440259.png)
+![image](http://t1.qpic.cn/mblogpic/830790be610321b8614a/2000.jpg)
 
